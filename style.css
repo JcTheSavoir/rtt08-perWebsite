@@ -1,0 +1,53 @@
+.topBar{
+    position: relative;
+    margin: 0;
+    background-color: white;
+}
+.topContainer{
+    display: flex;
+    /* height: 25px; */
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: white; */
+    border: solid red;
+    
+}
+
+.navOptions{
+    text-align: right;
+    display: flex;
+    justify-content: end;
+    border: solid black;
+
+}
+
+.proLearn,
+.entSol,
+.diveDes,
+.donNow,
+.about,
+.search {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 6px;
+    padding-bottom: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    /* border: solid black; */
+    
+}
+
+.proLearn:hover,
+.entSol:hover,
+.diveDes:hover,
+.donNow:hover,
+.about:hover,
+.search:hover{
+    border-bottom: solid rgb(88, 199, 255);
+}
+.search{
+    height: 20px;
+}
+
+
+
