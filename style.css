@@ -64,6 +64,109 @@
     height: 20px;
 }
 
+.mainSection{
+    margin: 0;
+}
+.bothItem.subsection1{
+    padding-bottom: 100px;
+}
 
+.bothItem .info1{
+    display: flex;
+}
 
+.leftSub1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+
+.leftSub1 {
+    position: relative;
+}
+.leftImage{
+    height: 100%;
+}
+
+.leftText{
+    max-width: 75%;
+    position: absolute;
+    bottom: 85px;
+    transform: translate(-50%,0);
+    left: 50%;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: white;
+    border: solid blue;
+}
+
+.leftTitle{
+    font-weight: bold;
+    font-size:x-small;
+}
+
+.leftParagraph{
+    font-size: medium;
+}
+
+.leftButton{
+background-color: orange;
+text-align: center;
+font-weight: bold;
+font-size: small;
+padding-top: 5px;
+padding-bottom: 5px;
+text-decoration: none;
+}
+.leftButton:Hover {
+    background-color: rgb(166, 91, 0);
+    transition: 0.5s linear;
+}
+
+.rightSub1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.rightImage{
+    height: 100%;
+
+}
+.rightText{
+    max-width: 75%;
+    width: 20%;
+    position: absolute;
+    /* bottom: 585px; */
+    transform: translate(-50%,0);
+    left: 75%;
+    background: white;
+    border: solid blue;
+}
+
+.subsection2{
+    height: 100px;
+    width: 90%;
+    border: solid black;
+    margin: 100px
+}
+
+.subsection3{
+    height: 100px;
+    width: 90%;
+    border: solid yellow;
+    margin: 100px
+}
+
+.subsection4{    
+    height: 100px;
+    width: 90%;
+    border: solid red;
+    margin: 100px
+
+}
 
